@@ -1,2 +1,3 @@
 Configuracio de Git
 Afegint un canvi de prova
+Canvi en la branca nova
