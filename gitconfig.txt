@@ -1,1 +1,2 @@
 Configuracio de Git
+Afegint un canvi de prova
