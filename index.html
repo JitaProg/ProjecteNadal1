@@ -2,67 +2,69 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi primera web en GitHub Pages</title>
+  <title>Borja Lozano - Web GitHub</title>
   <style>
-    /* Reset básico */
+    /* Fuente futurista desde Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f4f9;
-      color: #333;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #e0e0e0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #00ffe7;
+      text-shadow: 0 0 15px #00ffe7;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      color: #ffffff;
+      text-shadow: 0 0 10px #00c3ff;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.2rem;
       line-height: 1.6;
     }
 
-    /* Cabecera */
-    header {
-      background: #4a90e2;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    /* Secciones */
-    main {
-      padding: 2rem;
-    }
-
-    section {
-      background: white;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    /* Footer */
     footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,255,231,0.3);
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>¡Hola mundo desde GitHub Pages!</h1>
-    <p>Esta es mi primera página publicada con un poco de estilo.</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>Sobre el proyecto</h2>
-      <p>Este sitio está creado para practicar GitHub Pages y aprender a publicar webs.</p>
-    </section>
-  </main>
-
+  <div class="card">
+    <h1>Borja Lozano</h1>
+    <h2>Proyecto DAW - GitHub Pages</h2>
+    <p>
+      Bienvenido a mi página publicada con GitHub Pages.  
+      Aquí experimentaré con etiquetas, releases, wikis y documentación.
+    </p>
+  </div>
   <footer>
-    <p>© 2025 Borja – Proyecto DAW</p>
+    © 2025 Borja Lozano
   </footer>
 </body>
 </html>
